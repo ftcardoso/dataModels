@@ -81,7 +81,7 @@ This entity model a particular public vehicle model, including all properties wh
 
 ```
 {
-	"id": "publicVehicleModel001"
+    "id": "publicVehicleModel001"
     "name": "vehicleName",
     "brandName": "vehicleBrandName",
     "modelName": "vehicleModelName",
