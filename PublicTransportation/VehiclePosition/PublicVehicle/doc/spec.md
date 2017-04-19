@@ -85,7 +85,7 @@ This entity model a particular public vehicle model, including all properties wh
 
 ```
 {
-	"id": "Vehicle0001",
+    "id": "Vehicle0001",
     "category": ["municipalServices", "public"],
     "location": {
     	"type": geo:json,
