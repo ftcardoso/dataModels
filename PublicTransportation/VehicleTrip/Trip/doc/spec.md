@@ -2,7 +2,7 @@
 
 ## Description
 
-This entity model a particular trip model, including all properties which can be used to find the users favorite public transport trip and all data related to it. This data model is based on the the [General Transit Feed Specification (GTFS)](https://developers.google.com/transit/gtfs/) that defines a common format for public transportation schedules and associated geographic information.
+This entity model a particular trip model, including all properties which can be used to characterize trips from public transport networks. This data model is based on the the [General Transit Feed Specification (GTFS)](https://developers.google.com/transit/gtfs/) that defines a common format for public transportation schedules and associated geographic information.
 
 ## Data Model
 
