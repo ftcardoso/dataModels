@@ -17,3 +17,12 @@ This entity model a particular a public transport agency model, including all pr
 - ```timezone```: Timezone where this agency belongs to.
     - Attribute type: [Text](https://schema.org/Text)
     - Optional
+
+## Example
+
+```
+{
+    "id": "CC",
+    "name": "Corredores Concesionados"
+}
+```

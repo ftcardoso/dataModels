@@ -68,32 +68,16 @@ This entity model a particular trip model, including all properties which can be
 ## Example
 ```
 {
-	"id": "tripID",
+    "id": "tripID",
     "weekdays": ["monday", "tuesday"],
     "segments": [
     	"segment1":{
         	"id": "segmentID",
             "name": "Tacubaya - La Valenciana por Eje 3 Sur",
-            "agency":{
-            	"id": "CC",
-                "name": "Corredores Concesionados"
-            },
-            "route": {
-            	"id": "routeID",
-                "short_name": "SAUSA"
-                "long_name": "Metro Tacubaya - La Valenciana"
-                "type": 3
-            },
-            "stop_departure": {
-            	"id": "stopID",
-                "name": "M. Tacubaya",
-                "location": [19.402325646816475,-99.18885111808775]
-            },
-            "stop_arrival": {
-            	"id": "stopID",
-                "name": "Estación Metro Puebla",
-                "location": [19.40738533642689,-99.08250689506531]
-            },
+            "agency": "CC",
+            "route": "routeID",
+            "stop_departure": "stopID",
+            "stop_arrival": "stopID",
             "departure_timestamp": "08:30:11Z",
             "arrival_timestamp":"08:50:30Z"
         }

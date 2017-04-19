@@ -39,3 +39,13 @@ This entity model a particular a public transport stop model, including all prop
 		- ```1```: Indicates that at least some vehicles at this stop can be boarded by a rider in a wheelchair.
 		- ```2```: Wheelchair boarding is not possible at this stop.
 	- Optional
+
+## Example
+
+```
+{
+	"id": "stopID",
+	"name": "M. Tacubaya",
+	"location": [19.402325646816475,-99.18885111808775]
+}
+```

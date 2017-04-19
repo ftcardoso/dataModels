@@ -40,3 +40,15 @@ This entity model a particular a public transport route model, including all pro
 - ```url```: The URL of a web page about that particular route
 	- Normative references: https://schema.org/url
 	- Optional
+
+
+## Example
+
+```
+{
+	"id": "routeID",
+	"short_name": "SAUSA"
+	"long_name": "Metro Tacubaya - La Valenciana"
+	"type": 3
+}
+```
