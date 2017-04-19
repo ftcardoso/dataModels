@@ -68,7 +68,7 @@ This entity model a particular trip model, including all properties which can be
 ## Example
 ```
 {
-	"id": "tripID",
+    "id": "tripID",
     "weekdays": ["monday", "tuesday"],
     "segments": [
     	"segment1":{
