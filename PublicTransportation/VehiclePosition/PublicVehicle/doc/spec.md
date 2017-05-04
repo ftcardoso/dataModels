@@ -8,6 +8,8 @@ This entity model a particular public vehicle model, including all properties wh
 
 - ```id```: Entity's unique identifier.
 
+- ```type```: Entity type. It must be equal to ```PublicVehicle```.
+
 - ```name```: Name given to this vehicle.
 	- Normative references: https://schema.org/name
 	- Optional
@@ -86,6 +88,7 @@ This entity model a particular public vehicle model, including all properties wh
 ```
 {
     "id": "Vehicle0001",
+    "type": "PublicVehicle",
     "category": ["municipalServices", "public"],
     "location": {
     	"type": geo:json,

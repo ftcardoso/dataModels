@@ -7,6 +7,9 @@ This entity model a particular a public transport route model, including all pro
 ## Data Model
 
 - ```id```: Entity's unique identifier.
+
+- ```type```: Entity type. It must be equal to ```Route```.
+
 - ```short_name```: Short name of a route, often a short and abstract identifier like "7", "34", or "Blue" that riders use to identify a route.
     - Normative References: https://schema.org/name
     - Mandatory 
@@ -47,6 +50,7 @@ This entity model a particular a public transport route model, including all pro
 ```
 {
 	"id": "routeID",
+        "type": "Route",
 	"short_name": "SAUSA"
 	"long_name": "Metro Tacubaya - La Valenciana"
 	"type": 3

@@ -8,6 +8,8 @@ This entity model a particular a public transport stop model, including all prop
 
 - ```id```: Entity's unique identifier.
 
+- ```type```: Entity type. It must be equal to ```Stop```.
+
 - ```code```: Number that uniquely identifies the stop for passengers.
 	- Attribute type: [Text](https://schema.org/Text) 
 	- Optional
@@ -45,6 +47,7 @@ This entity model a particular a public transport stop model, including all prop
 ```
 {
 	"id": "stopID",
+        "type": "Stop",
 	"name": "M. Tacubaya",
 	"location": [19.402325646816475,-99.18885111808775]
 }

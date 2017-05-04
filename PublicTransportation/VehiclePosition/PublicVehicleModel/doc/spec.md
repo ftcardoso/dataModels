@@ -7,6 +7,8 @@ This entity model a particular public vehicle model, including all properties wh
 
 - ```id```: Entity's unique identifier.
 
+- ```type```: Entity type. It must be equal to ```PublicVehicleModel```.
+
 - ```name```: Name given to this vehicle model.
 	- Normative references: https://schema.org/name 
 	- Mandatory
@@ -81,7 +83,8 @@ This entity model a particular public vehicle model, including all properties wh
 
 ```
 {
-    "id": "publicVehicleModel001"
+    "id": "publicVehicleModel001",
+    "type": "PublicVehicleModel",
     "name": "vehicleName",
     "brandName": "vehicleBrandName",
     "modelName": "vehicleModelName",

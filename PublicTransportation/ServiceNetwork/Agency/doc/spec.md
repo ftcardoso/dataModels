@@ -6,6 +6,9 @@ This entity model a particular a public transport agency model, including all pr
 
 ## Data Model
 - ```id```: Entity's unique identifier.
+
+- ```Type```: Entity type. It must be equal to ```Agency```.
+
 - ```name```: Name given to this agency.
     - Normative References: https://schema.org/name
     - Mandatory 
@@ -23,6 +26,7 @@ This entity model a particular a public transport agency model, including all pr
 ```
 {
     "id": "CC",
+    "type": "Agency",
     "name": "Corredores Concesionados"
 }
 ```

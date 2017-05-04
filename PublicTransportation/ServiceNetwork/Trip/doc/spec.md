@@ -8,6 +8,8 @@ This entity model a particular trip model, including all properties which can be
 
 - ```id```: Entity's unique identifier.
 
+- ```type```: Entity type. It must be equal to ```Trip```.
+
 - ```weekdays```: The weekdays that this trip refers to. 
 	- Attribute type: List of [Text](https://schema.org/Text)
 	- Mandatory
@@ -69,6 +71,7 @@ This entity model a particular trip model, including all properties which can be
 ```
 {
     "id": "tripID",
+    "type": "Trip",
     "weekdays": ["monday", "tuesday"],
     "segments": [
     	"segment1":{

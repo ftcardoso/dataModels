@@ -7,6 +7,8 @@ This entity model a particular service alert time range model, including all pro
 
 - ```ìd```: Entity's unique identifier.
 
+- ```type```: Entity type. It must be equal to ```TimeRange```.
+
 - ```startDate```: The specific date when the alert will start.
 	- Attribute type: [DateTime](http://schema.org/DateTime)
 	- Mandatory
@@ -20,6 +22,7 @@ This entity model a particular service alert time range model, including all pro
 ```
 {
     "id": "timeRangeID0",
+    "type": "TimeRange",
     "startDate": "2017-04-05T08:15:30+01:00",
     "endDate": "2017-04-05T10:15:30+01:00"
 }

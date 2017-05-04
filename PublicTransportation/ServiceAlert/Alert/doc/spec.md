@@ -7,6 +7,8 @@ This enity model a particular public transport service alert model, including al
 
 - ```id```: Entity's unique identifier.
 
+- ```type```: Entity type. It must be equal to ```Alert```.
+
 - ```header```: Summary of the alert.
 	- Attribute type: [Text](https://schema.org/Text)
 	- Mandatory
@@ -67,6 +69,7 @@ This enity model a particular public transport service alert model, including al
 ```
 {
     "id": "Alert0000",
+    "type": "Alert",
     "header": "Holiday",
     "description": "Complete description of what will happen",
     "refTimeRange": ["timeRangeID0"],

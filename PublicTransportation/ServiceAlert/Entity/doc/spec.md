@@ -7,6 +7,8 @@ This enity model a particular service alert entity model, including all properti
 
 - ```id```: Entity's unique indentifier.
 
+- ```type```: Entity type. It must be equal to ```ServiceEntity```.
+
 - ```refAgency```: Spcecifies the agency that will be affected. This means that all the agency network will be affected.
 	- Attribute type: Reference to a [Agency](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportTrip/Agency/doc/spec.md)
 	- Optional
@@ -42,6 +44,7 @@ This enity model a particular service alert entity model, including all properti
 ```
 {
     "id": "entityID0",
+    "type": "ServiceEntity,"
     "refAgency": "agencyID0",
     "refRoute": "routeID001"
 }
