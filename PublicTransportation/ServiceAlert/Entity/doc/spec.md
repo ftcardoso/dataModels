@@ -44,7 +44,7 @@ This enity model a particular service alert entity model, including all properti
 ```
 {
     "id": "entityID0",
-    "type": "ServiceEntity,"
+    "type": "ServiceEntity",
     "refAgency": "agencyID0",
     "refRoute": "routeID001"
 }
