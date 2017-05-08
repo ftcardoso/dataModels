@@ -1,13 +1,13 @@
-# Entity
+# Affected Transit Service
 
 ## Description
-This enity model a particular service alert entity model, including all properties which can be used to specify exactly which parts of the public transport network are affected by the alert. This data model is based on the [Realtime Transit Service Alerts](https://developers.google.com/transit/gtfs-realtime/guides/service-alerts) that defines a common format for public transportation service alerts.
+This enity model a particular affected transit service, including all properties which can be used to specify exactly which parts of the public transport network are affected by the alert. This data model is based on the [Realtime Transit Service Alerts](https://developers.google.com/transit/gtfs-realtime/guides/service-alerts) that defines a common format for public transportation service alerts.
 
 ## Data Model
 
 - ```id```: Entity's unique indentifier.
 
-- ```type```: Entity type. It must be equal to ```ServiceEntity```.
+- ```type```: Entity type. It must be equal to ```AffectedTransitService```.
 
 - ```refAgency```: Spcecifies the agency that will be affected. This means that all the agency network will be affected.
 	- Attribute type: Reference to a [Agency](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportTrip/Agency/doc/spec.md)
@@ -44,7 +44,7 @@ This enity model a particular service alert entity model, including all properti
 ```
 {
     "id": "entityID0",
-    "type": "ServiceEntity,"
+    "type": "AffectedTransitService,"
     "refAgency": "agencyID0",
     "refRoute": "routeID001"
 }
