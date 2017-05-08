@@ -21,8 +21,8 @@ This enity model a particular public transport service alert model, including al
 	- Attribute type: List
 	- Mandatory
 
-- ```refEntity```: Specify exactly which parts of the network this alert affetcs.
-	- Attribute type: List of references to entities of type [Entity](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportServiceAlerts/Entity/doc/spec.md)
+- ```refAffectedTransitService```: Specify exactly which parts of the network this alert affetcs.
+	- Attribute type: List of references to entities of type [AffectedTransitService](https://github.com/ftcardoso/dataModels/blob/PublicTransportation/PublicTransportation/ServiceAlert/AffectedTransitService/doc/spec.md)
 	- Mandatory
 
 - ```cause```: The cause of the alert. Can only exist one cause for each alert.
@@ -82,7 +82,7 @@ This enity model a particular public transport service alert model, including al
             2017-04-09T08:15:30+01:00
         ]
     ],
-    "refEntity": ["entityID0"],
+    "refAffectedTransitService": ["entityID0"],
     "cause": "Holiday",
     "effect": "Modified Service"
 }
