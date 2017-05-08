@@ -44,11 +44,7 @@ This enity model a particular affected transit service, including all properties
 ```
 {
     "id": "entityID0",
-<<<<<<< HEAD:PublicTransportation/ServiceAlert/AffectedTransitService/doc/spec.md
-    "type": "AffectedTransitService,"
-=======
-    "type": "ServiceEntity",
->>>>>>> c7fb94439f63b55658323bffe801b21ca4479e59:PublicTransportation/ServiceAlert/Entity/doc/spec.md
+    "type": "AffectedTransitService",
     "refAgency": "agencyID0",
     "refRoute": "routeID001"
 }
