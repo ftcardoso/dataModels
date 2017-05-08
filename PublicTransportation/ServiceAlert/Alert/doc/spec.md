@@ -1,4 +1,4 @@
-# Service Alerts
+# Service Alert
 
 ## Description
 This enity model a particular public transport service alert model, including all properties which can be used to specify a public transport service alert whenever there is a disruption on the public transport network. This data model is based on the [Realtime Transit Service Alerts](https://developers.google.com/transit/gtfs-realtime/guides/service-alerts) that defines a common format for public transportation service alerts.
@@ -17,8 +17,8 @@ This enity model a particular public transport service alert model, including al
 	- Attribute type: [Text](https://schema.org/Text)
 	- Mandatory
 
-- ```refTimeRange```: The time range that the alert will be active. The time range can reffer to one or multiple time ranges.
-	- Attribute type: List of references to entities of type [TimeRange](https://github.com/ftcardoso/dataModels/blob/public_transportation_2/Transportation/PublicTransportServiceAlerts/TimeRange/doc/spec.md)
+- ```timeRange```: The time range that the alert will be active. The time range can refer to one or multiple time ranges. It's represented as an array of arrays, where the first position refers to the start date and the second to the end date of the time range.
+	- Attribute type: List
 	- Mandatory
 
 - ```refEntity```: Specify exactly which parts of the network this alert affetcs.
@@ -72,7 +72,16 @@ This enity model a particular public transport service alert model, including al
     "type": "Alert",
     "header": "Holiday",
     "description": "Complete description of what will happen",
-    "refTimeRange": ["timeRangeID0"],
+    "timeRange": [
+    	[
+            2017-04-05T08:15:30+01:00,
+            2017-04-06T08:15:30+01:00
+        ],
+        [
+            2017-04-08T08:15:30+01:00,
+            2017-04-09T08:15:30+01:00
+        ]
+    ],
     "refEntity": ["entityID0"],
     "cause": "Holiday",
     "effect": "Modified Service"

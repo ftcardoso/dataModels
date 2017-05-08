@@ -22,7 +22,6 @@ This entity model a particular public vehicle model, including all properties wh
 	- Attribute type: List of [Text](https://schema.org/Text)
 	- Allowed values:
 		- public
-		- private
 		- municipalServices
 		- specialUsage
 	- Mandatory
