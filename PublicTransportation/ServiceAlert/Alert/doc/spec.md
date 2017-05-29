@@ -7,7 +7,7 @@ This enity model a particular public transport service alert model, including al
 
 - ```id```: Entity's unique identifier.
 
-- ```type```: Entity type. It must be equal to ```Alert```.
+- ```type```: Entity type. It must be equal to ```TrasitServiceAlert```.
 
 - ```header```: Summary of the alert.
 	- Attribute type: [Text](https://schema.org/Text)
@@ -17,11 +17,11 @@ This enity model a particular public transport service alert model, including al
 	- Attribute type: [Text](https://schema.org/Text)
 	- Mandatory
 
-- ```timeRange```: The time range that the alert will be active. The time range can refer to one or multiple time ranges. It's represented as an array of arrays, where the first position refers to the start date and the second to the end date of the time range.
-	- Attribute type: List
+- ```timeRange```: The time range that the alert will be active. The time range can refer to one or multiple time ranges. It's represented as an array of time intervals.
+	- Attribute type: DateTime or an ISO8601 interval represented as Text.
 	- Mandatory
 
-- ```refAffectedTransitService```: Specify exactly which parts of the network this alert affetcs.
+- ```refAffectedTransitService```: Specify exactly which parts of the network this alert affects.
 	- Attribute type: List of references to entities of type [AffectedTransitService](https://github.com/ftcardoso/dataModels/blob/PublicTransportation/PublicTransportation/ServiceAlert/AffectedTransitService/doc/spec.md)
 	- Mandatory
 
