@@ -69,7 +69,7 @@ This enity model a particular public transport service alert model, including al
 ```
 {
     "id": "Alert0000",
-    "type": "Alert",
+    "type": "TrasitServiceAlert",
     "header": "Holiday",
     "description": "Complete description of what will happen",
     "timeRange": [
