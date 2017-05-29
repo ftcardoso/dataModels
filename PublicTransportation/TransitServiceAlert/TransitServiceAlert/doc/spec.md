@@ -1,4 +1,4 @@
-# Service Alert
+# Transit Service Alert
 
 ## Description
 This enity model a particular public transport service alert model, including all properties which can be used to specify a public transport service alert whenever there is a disruption on the public transport network. This data model is based on the [Realtime Transit Service Alerts](https://developers.google.com/transit/gtfs-realtime/guides/service-alerts) that defines a common format for public transportation service alerts.
@@ -7,7 +7,7 @@ This enity model a particular public transport service alert model, including al
 
 - ```id```: Entity's unique identifier.
 
-- ```type```: Entity type. It must be equal to ```TrasitServiceAlert```.
+- ```type```: Entity type. It must be equal to ```TrasitServiceAlert.```
 
 - ```header```: Summary of the alert.
 	- Attribute type: [Text](https://schema.org/Text)
