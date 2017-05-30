@@ -2,7 +2,7 @@
 
 ## Description
 
-This entity model a particular a public transport stop model, including all properties which are commom to multiple trip instances belonging to such model. This data model is based on the the [General Transit Feed Specification (GTFS)](https://developers.google.com/transit/gtfs/) that defines a common format for public transportation schedules and associated geographic information.
+This entity model a particular public transport stop model, including all properties which are commom to multiple trip instances belonging to such model. This data model is based on the the [General Transit Feed Specification (GTFS)](https://developers.google.com/transit/gtfs/) that defines a common format for public transportation schedules and associated geographic information. A stop is defined by its geographical coordinates and its type, and represents a place where a given type of public transports stops for boarding and unloading passengers. 
 
 ## Data Model
 
